@@ -1,0 +1,8 @@
+{
+  "project": "mold-quarantine-lineage",
+  "resource_types": ["chamber", "tray", "vehicle", "workbench"],
+  "batch_states": ["awaiting_intake", "isolated", "treating", "culturing", "recalled", "released"],
+  "event_types": ["contact_started", "contact_ended", "sample_taken", "result_reported", "cleaning_started", "cleaning_certified", "door_opened", "batch_released"],
+  "required_contact_fields": ["contact_id", "batch_id", "resource_id", "resource_type", "started_at", "ended_at"],
+  "minimum_culture_hours": 72
+}

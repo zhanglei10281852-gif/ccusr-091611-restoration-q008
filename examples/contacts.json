@@ -1,0 +1,4 @@
+[
+  {"contact_id":"contact-1","batch_id":"batch-organic-11","resource_id":"vehicle-2","resource_type":"vehicle","started_at":"2026-09-10T08:00:00+08:00","ended_at":"2026-09-10T09:10:00+08:00"},
+  {"contact_id":"contact-2","batch_id":"batch-organic-16","resource_id":"vehicle-2","resource_type":"vehicle","started_at":"2026-09-10T09:00:00+08:00","ended_at":"2026-09-10T10:00:00+08:00"}
+]
