@@ -1,0 +1,9 @@
+{
+  "protocols": [
+    {"resource_type": "chamber", "min_cleaning_hours": 2, "required_steps": ["表面擦拭", "紫外消杀"]},
+    {"resource_type": "vehicle", "min_cleaning_hours": 1, "required_steps": ["表面擦拭"]},
+    {"resource_type": "tray", "min_cleaning_hours": 0.5, "required_steps": ["表面擦拭"]},
+    {"resource_type": "workbench", "min_cleaning_hours": 1, "required_steps": ["表面擦拭"]}
+  ],
+  "boundary_rule": "只有 cleaning_certified（步骤齐全且时长达标）构成传播边界；仅 cleaning_started 不阻断传播。"
+}

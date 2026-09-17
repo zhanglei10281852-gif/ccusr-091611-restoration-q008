@@ -1,0 +1,8 @@
+{
+  "levels": ["low", "medium", "high"],
+  "species": {
+    "aspergillus-active": {"level": "high", "name": "活性曲霉", "action": "source_batch_treatment_and_contact_recall"},
+    "penicillium-sp": {"level": "medium", "name": "青霉属", "action": "contact_recall"},
+    "cladosporium-sp": {"level": "low", "name": "枝孢属", "action": "hold_and_retest"}
+  }
+}

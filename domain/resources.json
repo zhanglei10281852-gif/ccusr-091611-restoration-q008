@@ -1,0 +1,20 @@
+{
+  "chambers": [
+    {"chamber_id": "chamber-a", "name": "A舱 恒湿保存", "capacity": 2, "tray_ids": ["tray-1", "tray-2"]},
+    {"chamber_id": "chamber-b", "name": "B舱 低温缓冲", "capacity": 2, "tray_ids": ["tray-3", "tray-4"]},
+    {"chamber_id": "chamber-c", "name": "C舱 应急隔离", "capacity": 1, "tray_ids": ["tray-5"]},
+    {"chamber_id": "chamber-d", "name": "D舱 恒湿保存", "capacity": 2, "tray_ids": ["tray-6", "tray-7"]}
+  ],
+  "vehicles": [
+    {"vehicle_id": "vehicle-2", "name": "2号转运车"},
+    {"vehicle_id": "vehicle-5", "name": "5号转运车"}
+  ],
+  "workbenches": [
+    {"workbench_id": "bench-1", "name": "1号清点台"}
+  ],
+  "capacity_rules": {
+    "chamber": "同一时间在舱批次数不得超过 capacity",
+    "tray": "同一时间仅可承载一个批次",
+    "vehicle": "允许批次时间重叠（共用资源本身就是传播媒介），不做超配限制"
+  }
+}

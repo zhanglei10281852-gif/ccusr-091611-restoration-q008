@@ -2,6 +2,6 @@
   "name": "mold-quarantine-lineage",
   "private": true,
   "type": "module",
-  "scripts": {"test": "node tools/validate-contract.mjs"},
+  "scripts": {"test": "node tools/run-tests.mjs", "validate": "node tools/validate-contract.mjs", "report": "node tools/report.mjs"},
   "engines": {"node": ">=20"}
 }

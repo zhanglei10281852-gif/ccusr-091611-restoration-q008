@@ -1,8 +1,13 @@
 {
   "project": "mold-quarantine-lineage",
+  "timezone": "+08:00",
   "resource_types": ["chamber", "tray", "vehicle", "workbench"],
   "batch_states": ["awaiting_intake", "isolated", "treating", "culturing", "recalled", "released"],
   "event_types": ["contact_started", "contact_ended", "sample_taken", "result_reported", "cleaning_started", "cleaning_certified", "door_opened", "batch_released"],
+  "sample_results": ["positive", "negative"],
+  "decision_types": ["cycle_invalidated", "retest_due", "positive_notification", "source_treatment_due", "recall_due", "hold_due", "batch_released", "release_denied", "release_exception"],
   "required_contact_fields": ["contact_id", "batch_id", "resource_id", "resource_type", "started_at", "ended_at"],
-  "minimum_culture_hours": 72
+  "required_event_fields": ["event_id", "type", "at"],
+  "minimum_culture_hours": 72,
+  "door_retest_delay_hours": 0.5
 }

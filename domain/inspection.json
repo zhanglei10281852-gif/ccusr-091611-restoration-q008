@@ -1,0 +1,10 @@
+{
+  "sample_report_deadline_hours": 168,
+  "minimum_culture_hours": 72,
+  "door_retest_delay_hours": 0.5,
+  "notes": [
+    "阴性结果须在采样满 minimum_culture_hours 后才生效，释放决定时间取 max(报告时间, 生效时间)。",
+    "报告时间晚于采样后 sample_report_deadline_hours 的，培养结果失效，必须重新采样。",
+    "舱门在培养周期内意外开启的，该周期作废，door_retest_delay_hours 后下达定时复检。"
+  ]
+}
