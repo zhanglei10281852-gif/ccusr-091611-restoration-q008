@@ -1,0 +1,5 @@
+[
+  {"risk_level":"high","method":"过氧化氢雾化+静置通风","requires_post_cleaning_negative":true,"reinspection_interval_hours":24,"certification":"独立检验员签字"},
+  {"risk_level":"medium","method":"75%乙醇擦拭+紫外照射","requires_post_cleaning_negative":false,"reinspection_interval_hours":48,"certification":"班组复核"},
+  {"risk_level":"low","method":"通风+干式清洁","requires_post_cleaning_negative":false,"reinspection_interval_hours":72,"certification":"自检"}
+]

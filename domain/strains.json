@@ -1,0 +1,5 @@
+[
+  {"strain":"aspergillus-niger","label":"黑曲霉","risk_level":"high"},
+  {"strain":"penicillium-sp","label":"青霉","risk_level":"medium"},
+  {"strain":"cladosporium-sp","label":"枝孢霉","risk_level":"low"}
+]

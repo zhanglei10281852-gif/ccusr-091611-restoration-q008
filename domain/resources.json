@@ -1,0 +1,8 @@
+[
+  {"resource_id":"chamber-1","resource_type":"chamber","capacity":1,"capabilities":["organic","low_temp","high_risk"]},
+  {"resource_id":"chamber-2","resource_type":"chamber","capacity":1,"capabilities":["organic"]},
+  {"resource_id":"chamber-3","resource_type":"chamber","capacity":1,"capabilities":["inorganic"]},
+  {"resource_id":"vehicle-2","resource_type":"vehicle","capacity":2,"capabilities":["transport"]},
+  {"resource_id":"tray-5","resource_type":"tray","capacity":1,"capabilities":["organic"]},
+  {"resource_id":"workbench-1","resource_type":"workbench","capacity":1,"capabilities":["organic"]}
+]
